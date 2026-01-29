@@ -386,7 +386,7 @@ def display_about_page():
     st.markdown(f"**Molecular Docking Platform for Dual-Acting Modulators of α-Glucosidase and GLP-1 Receptor for Type II Diabetes**")
     st.markdown("""    
     **Features:**
-    - **Simplified Input:** Direct upload of `.pdbqt`, `.pdb` files or `.zip` archives.
+    - **Simplified Input:** Direct upload of `.pdbqt` files or `.zip` archives.
     - **Automated Vina:** Runs AutoDock Vina automatically for all combinations.
     """)
 
