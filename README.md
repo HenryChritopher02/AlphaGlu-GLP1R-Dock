@@ -1,25 +1,28 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 🧬 AG-GLP1R-AlloDock
 
-Description of the app ...
+### Dual-Acting Modulators of α-Glucosidase & GLP-1 Receptor
+
+This Streamlit application serves as an interactive dashboard for analyzing molecular docking simulations of dual-acting antidiabetic agents. It visualizes the allosteric binding interactions of potential ligands (such as Quercetin or novel hybrids) against two key Type II Diabetes targets: **Alpha-Glucosidase (AG)** and the **GLP-1 Receptor (GLP-1R)**.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url-here.streamlit.app/)
+
+> **Note:** Click the badge above to view the live visualization of the docking models.
 
 ## GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/your-username/AG-GLP1R-AlloDock?quickstart=1)
 
-## Section Heading
+## Key Features
 
-This is filler text, please replace this with text for this section.
+This tool allows researchers to inspect docking results without needing local installation of PyMOL or Discovery Studio.
+
+
+## Methodology
+
+
 
 ## Further Reading
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+Key resources and literature used to build these models:
