@@ -262,7 +262,6 @@ def display_diabetes_docking_procedure():
                 for p in st.session_state.prepared_ligand_paths: st.text(Path(p).name)
             if st.button("Clear List"):
                 st.session_state.prepared_ligand_paths = []
-                st.experimental_rerun()
 
     # --- TAB 2: EXECUTION ---
     with tab2:
