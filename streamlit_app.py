@@ -151,7 +151,7 @@ def view_complex(protein_path, ligand_path):
 
 def display_diabetes_docking_procedure():
     st.header(f"Molecular Docking Platform for Dual-Acting Modulators of α-Glucosidase and GLP-1 Receptor for Type II Diabetes")
-    st.image("https://raw.githubusercontent.com/HenryChritopher02/AG-GLP1R-AlloDock/main/docking-app.png", use_column_width=True)
+    st.image("https://raw.githubusercontent.com/HenryChritopher02/AG-GLP1R-AlloDock/main/docking-app.png", width='stretch')
     
     # Initialize session state
     if 'docking_results' not in st.session_state:
