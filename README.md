@@ -2,7 +2,7 @@
 
 ### Dual-Acting Modulators of α-Glucosidase & GLP-1 Receptor
 
-This Streamlit application serves as an interactive dashboard for analyzing molecular docking simulations of dual-acting antidiabetic agents. It visualizes the allosteric binding interactions of potential ligands (such as Quercetin or novel hybrids) against two key Type II Diabetes targets: **Alpha-Glucosidase (AG)** and the **GLP-1 Receptor (GLP-1R)**.
+This Streamlit application serves as an interactive dashboard for analyzing molecular docking simulations of dual-acting antidiabetic agents. It visualizes the allosteric binding interactions of ligands against two key Type II Diabetes targets: **Alpha-Glucosidase (AG)** and the **GLP-1 Receptor (GLP-1R)**.
 
 ## Demo App
 
