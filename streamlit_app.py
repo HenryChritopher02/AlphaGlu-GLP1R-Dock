@@ -281,7 +281,7 @@ def display_diabetes_docking_procedure():
                     else: st.error(f"Files missing for {t_key}.")
                 
                 if len(targets_ready) == len(selected_targets_keys):
-                    st.info(f"Docking {len(st.session_state.prepared_ligand_paths)} ligands vs {len(targets_ready)} targets.")
+                    st.info(f"Docking {len(st.session_state.prepared_ligand_paths)} ligand(s) vs {len(targets_ready)} target(s).")
                     progress_bar = st.progress(0)
                     status_text = st.empty()
                     total_tasks = len(st.session_state.prepared_ligand_paths) * len(targets_ready)
