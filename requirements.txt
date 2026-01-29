@@ -1,0 +1,35 @@
+# --- Build Tools ---
+setuptools
+
+# --- Core Scientific Stack (Install these first) ---
+numpy
+pandas
+scipy
+matplotlib
+requests
+
+# --- Cheminformatics Core ---
+rdkit
+gemmi
+
+# --- Machine Learning ---
+scikit-learn
+joblib
+xgboost
+lightgbm
+
+# --- Specialized Chemistry Libraries (Depend on Core/RDKit) ---
+meeko
+mordred
+molscrub
+
+# --- Visualization & Widgets ---
+ipython_genutils
+ipywidgets
+py3Dmol
+plotly
+
+# --- Streamlit & Web App (Install last to ensure dependencies are met) ---
+streamlit
+streamlit-ketcher
+stmol
